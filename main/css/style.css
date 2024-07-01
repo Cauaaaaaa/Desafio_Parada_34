@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    font-family: "Radio Canada Big", sans-serif;
+    margin: 0px;
+    padding: 0px;
+background-color: #e9ceff;
+}
+
+.cadastro{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#formulario{
+    margin: auto;
+    background-color: #f7f7f7;
+    padding: 15px;
+    
+}
+
+#formulario h2{
+    color: #a167ff;
+    font-style: oblique;
+    padding: 10px;
+    text-align: center;
+}
+
+.preenchimento{
+    display: flex;
+
+}
+
+.preenchimento span{
+    padding: 15px;
+}
+
+.preenchimento label{
+    padding-bottom: 5px;
+    display: block;
+    color: #a167ff;
+
+}
+
+#btt{
+    background-color: #a167ff;
+    color: #ffffff;
+    height: 35px;
+    font-size: 20px;
+    
+}
+
+#formulario label, input, select{
+    cursor: pointer;
+}
+
+#erro {
+    background-color: red;
+    font-style: oblique;
+    padding: 10px;
+    text-align: center;
+    display: none;
+    color: #ffffff;
+}

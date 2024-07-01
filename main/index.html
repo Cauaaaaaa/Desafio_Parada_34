@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Cadastro</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
+
+    <body>
+        
+        <div class="cadastro">
+
+            <div id="formulario">
+                <h2>Cadastro para Programadores</h2>
+
+                <p id="erro">Todos os campos devem ser preenchidos corretamente!!!</p>
+
+                <form action="">
+
+                    <div class="preenchimento">
+                        <span>
+                            <label>Nome</label>
+                            <input type="text" id="nome" required>
+                        </span>
+
+                        <span>
+                            <label>Sobrenome</label>
+                            <input type="text" id="sobrenome" required>
+                        </span>
+                    </div>
+
+                    <div class="preenchimento">
+                        <span>
+                            <label>E-mail</label>
+                            <input type="text" id="email" required>
+                        </span>
+
+                        <span>
+                            <label>Confirmação de E-mail</label>
+                            <input type="text" id="c_email" required>
+                        </span>
+                    </div>
+
+                    <div class="preenchimento">
+                        <span>
+                            <label>Data de nascimento</label>
+                            <input type="date" id="nascimento" required>
+                        </span>
+
+                        <span>
+                            <label>Gênero</label>
+
+                            | Masculino
+                            <input type="radio" name="genero"> |
+                            
+                            Feminino
+                            <input type="radio" name="genero"> |
+                            Outros
+                            <input type="radio" name="genero" checked> |
+                            Prefiro não dizer
+                            <input type="radio" name="genero"> |
+                        </span>
+                    </div>
+
+                    <div class="preenchimento">
+                        <span>
+                            <label>Qual sua aplicação?</label>
+                            <select>
+                                <option>Fullstack</option>
+                                <option>Front-end</option>
+                                <option>Back-end</option>
+                            </select>
+                        </span>
+
+                        <span>
+                            <label>Formação Escolar</label>
+                            <select>
+                                <option>Ensino Fundamental</option>
+                                <option>Ensino Médio</option>
+                                <option>Ensino Superior</option>
+                            </select>
+                        </span>
+                    </div>
+
+                    <div class="preenchimento">
+                        <span>
+                            <label>Qual seu nível de Senioridade?</label>
+                            <select>
+                                <option>Trainer</option>
+                                <option>Júnior</option>
+                                <option>Pleno</option>
+                                <option>Sênior</option>
+                                <option>Master</option>
+                            </select>
+                        </span>                        
+                    </div>
+
+                    <div class="preenchimento">
+                        <span>
+                            
+                            <input type="submit" id="btt" onclick="validacao()" value="Finalizar cadastro">
+                        </span>                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
